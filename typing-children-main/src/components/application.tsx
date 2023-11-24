@@ -1,6 +1,6 @@
-type BoxProps = { children: React.ReactNode} 
+import { PropsWithChildren } from "react";
 
-const Box = ({ children }: BoxProps) => {
+const Box = ({ children }: PropsWithChildren) => {
   return (
     <section
       className="m-4"
